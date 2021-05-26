@@ -12,12 +12,10 @@ body {
 }
 
 .page-header {
-  margin-top: 40px; /* Add a top margin to avoid content overlay */
   height: 422px;
   background-image: url("https://i.imgur.com/XmiigWx.png");
   background-repeat: no-repeat;
   background-size: 1023px;
-  background-attachment: fixed;
   background-position: center top;
   background-color: rgba(0,0,0,0);
 }
