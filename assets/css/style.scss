@@ -18,6 +18,7 @@ body {
   background-size: 1023px;
   background-attachment: fixed;
   background-position: center top;
+  background-color: none;
 }
 
 .project-name {
@@ -27,7 +28,7 @@ body {
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #1d1d24;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -39,12 +40,15 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
   background: #ddd;
   color: black;
+  opacity: 1;
 }
