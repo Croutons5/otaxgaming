@@ -2186,7 +2186,8 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #e44c65;
+			/*background: #e44c65;*/
+			background: #d6ae0a;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
