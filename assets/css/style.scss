@@ -18,7 +18,7 @@ body {
   background-size: 1023px;
   background-attachment: fixed;
   background-position: center top;
-  background-color: none;
+  background-color: rgba(0,0,0,0);
 }
 
 .project-name {
@@ -48,7 +48,11 @@ body {
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+  /*background: #ddd;
+  color: black;*/
   opacity: 1;
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: #d4ac0a;
 }
