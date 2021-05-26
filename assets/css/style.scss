@@ -53,6 +53,11 @@ body {
   opacity: 1;
 }
 
+/* Main content */
+.main {
+  margin-top: 40px; /* Add a top margin to avoid content overlay */
+}
+
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   color: #d4ac0a;
 }
