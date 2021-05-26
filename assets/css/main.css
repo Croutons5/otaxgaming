@@ -2898,7 +2898,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e44c65;
+			/*background-color: #e44c65;*/
+			background-color: #7289da;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2930,7 +2931,19 @@ input, select, textarea {
 			cursor: default;
 			opacity: 0.25;
 		}
+	
+		.button.discord {
+			/*background-color: #e44c65;*/
+			background-color: #ffffff;
+			box-shadow: none;
+			color: #7289da !important;
+		}
 
+			.button.discord:hover {
+				background-color: #8ea3f7;
+				color: #ffffff !important;
+			}
+			
 /* Goto Next */
 
 	.goto-next {
@@ -3201,7 +3214,8 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #e44c65;
+			/*background: #e44c65;*/
+			background: #7289da;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
