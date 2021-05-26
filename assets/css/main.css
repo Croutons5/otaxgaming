@@ -2908,7 +2908,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #e76278;
+				background-color: #ffffff;
+				color: #7289da !important;
 			}
 
 			input[type="submit"].primary:active,
